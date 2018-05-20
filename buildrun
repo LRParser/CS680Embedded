@@ -1,0 +1,3 @@
+5c onewire.c
+5l onewire.5
+./5.out

@@ -1,0 +1,11 @@
+term% rc buildrun
+Initial temp
+Temp read is: 000101010011
+Temp in C: 21.187500
+Now, place your finger on the sensor for 10 seconds; we will now read the temperature again
+
+// Note - here my program slept for 10 seconds and I held the sensor
+
+Temp read is: 000110101100
+Temp in C: 26.750000
+term% acme 

@@ -1,0 +1,12 @@
+dd -if /dev/myled -bs 20 -count 1
+echo 'start' > /dev/myled
+sleep 1
+echo 'on' > /dev/myled
+dd -if /dev/myled -bs 20 -count 1
+sleep 5
+echo 'off' > /dev/myled
+dd -if /dev/myled -bs 20 -count 1
+sleep 5
+echo 'blink' > /dev/myled
+dd -if /dev/myled -bs 20 -count 1
+sleep 5
