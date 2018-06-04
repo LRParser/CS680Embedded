@@ -1,0 +1,5 @@
+Note: Proper functioning assumes typo in fns.h is fixed
+Can be tested easily with command: rc testdevice.rc
+Note that button should be pressed for less than 2 seconds. Using 2 threads
+so the sleep associated with blink does not decrease responsiveness to 
+button presses
